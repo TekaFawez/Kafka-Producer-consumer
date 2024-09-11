@@ -1,0 +1,4 @@
+C:\kafka_server\bin\windows\kafka-server-start.bat config\server.properties
+C:\kafka_server\bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+
+C:\kafka_server\bin\windows\kafka-console-consumer.bat --topic wikimedia-topic --from-beginning --bootstrap-server localhost:9092
